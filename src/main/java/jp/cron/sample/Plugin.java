@@ -9,6 +9,7 @@ public final class Plugin extends JavaPlugin {
     @Override
     public void onEnable() {
         getLogger().info("========================= " + getName() + " v" + getDescription().getVersion() + " =========================");
+        getLogger().info("  Developed by cronree-91");
         this.saveDefaultConfig();
         PaperCommandManager manager = new PaperCommandManager(this);
 
